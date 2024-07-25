@@ -1,0 +1,14 @@
+SQLALCHEMY_DATABASE_URI=mysql+pymysql://user:password@localhost:8000/app
+TZ='Asia/Tokyo'
+DEBUG=True
+LOCALE=jp
+DEFAULT_ERROR_PREFIX=errors
+MINIO_ENDPOINT=http://minio:9000
+MINIO_ACCESS_KEY=minioadmin
+MINIO_SECRET_KEY=minioadmin
+MYSQL_ROOT_PASSWORD=rootpassword
+MYSQL_DATABASE=app
+MYSQL_USER=user
+MYSQL_PASSWORD=password
+RABBITMQ_DEFAULT_USER=guest
+RABBITMQ_DEFAULT_PASS=guest
