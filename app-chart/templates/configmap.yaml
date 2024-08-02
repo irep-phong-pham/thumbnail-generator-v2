@@ -1,0 +1,12 @@
+# app-chart/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  FLASK_ENV: development
+  DATABASE_URL:
+  RABBITMQ_URL:
+  MINIO_URL: http://minio:9000
+  MINIO_ACCESS_KEY: your-access-key
+  MINIO_SECRET_KEY: your-secret-key

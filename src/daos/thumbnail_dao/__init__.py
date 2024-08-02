@@ -1,0 +1,2 @@
+from .thumbnail_dao_interface import ThumbnailDAOInterface
+from .rds_thumbnail_dao import ThumbnailDAO
